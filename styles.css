@@ -2,7 +2,9 @@
 body {
   background: #D9D0DE;
   color: #fff;
-  font-family: Helvetica, Arial;
+  font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">;
   font-size: 27px;
   font-weight: 300;
   line-height: 1.65em;
