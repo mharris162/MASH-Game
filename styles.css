@@ -1,11 +1,9 @@
 /* Body styling */
 body {
-  background: #D9D0DE;
-  color: #fff;
-  font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">;
-  font-size: 27px;
+  background: #7776BB;
+  color: ##1B3BAB;
+  font-family: Bebas Neue;
+  font-size: 36px;
   font-weight: 300;
   line-height: 1.65em;
   margin: 0 auto;
@@ -16,8 +14,8 @@ body {
 
 /* Heading Styles */
 h1 {
-  font-size: 65px;
-  color: #fff;
+  font-size: 48px;
+  color: #0E1C53;
   text-align: center;
 }
 
@@ -32,12 +30,12 @@ h1 {
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
   background: transparent;
-  border: 3px solid #fff;
+  border: 6px solid #0E1C53;
   border-radius: 6px;
-  color: #fff;
+  color: #1B3BAB;
   cursor: pointer; 
   display: block;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;  
   margin: 0 auto 60px;
   padding: 1em 2em; 
@@ -59,7 +57,7 @@ h1 {
 }
 
 .choice-bucket label {
-  font-size: 12px;
+  font-size: 24px;
   line-height: 13px;
   margin: 15px 4%;
 }
@@ -67,7 +65,7 @@ h1 {
 .choice-bucket input {
   border: 0;
   border-radius: 6px;
-  color: ##A04668;
+  color: #0E1C53;
   font-size: 18px;
   margin: 15px 4%;
   outline: 0;
