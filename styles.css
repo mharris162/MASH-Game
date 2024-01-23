@@ -1,8 +1,17 @@
 /* Body styling */
 body {
-  background: #7776BB;
-  color: ##1B3BAB;
-  font-family: Bebas Neue;
+background: hsla(0, 0%, 97%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 97%, 1) 0%, hsla(241, 34%, 60%, 1) 83%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 97%, 1) 0%, hsla(241, 34%, 60%, 1) 83%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 97%, 1) 0%, hsla(241, 34%, 60%, 1) 83%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F8F8F8", endColorstr="#7776BB", GradientType=1 );
+
+  color: #0E1C53;
+  font-family: Helvetica, Arial;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.65em;
@@ -30,12 +39,12 @@ h1 {
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
   background: transparent;
-  border: 6px solid #0E1C53;
+  border: 3px solid #0E1C53;
   border-radius: 6px;
-  color: #1B3BAB;
+  color: #0E1C53;
   cursor: pointer; 
   display: block;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;  
   margin: 0 auto 60px;
   padding: 1em 2em; 
@@ -57,7 +66,7 @@ h1 {
 }
 
 .choice-bucket label {
-  font-size: 24px;
+  font-size: 12px;
   line-height: 13px;
   margin: 15px 4%;
 }
@@ -90,7 +99,7 @@ h1 {
 /* Answer Div */
 #answers {
   margin: 60px 0;
-  background: #fff;
+  background: #d0a0ae;
   border-radius: 6px;
   color: #713e94;
   transition: 1s linear;
