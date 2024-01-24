@@ -1,14 +1,14 @@
 /* Body styling */
 body {
-background: hsla(0, 0%, 97%, 1);
+background: hsla(240, 30%, 65%, 1);
 
-background: radial-gradient(circle, hsla(0, 0%, 97%, 1) 0%, hsla(241, 34%, 60%, 1) 83%);
+background: radial-gradient(circle, hsla(240, 30%, 65%, 1) 15%, hsla(257, 32%, 55%, 1) 47%, hsla(255, 31%, 54%, 1) 63%, hsla(228, 58%, 31%, 1) 100%);
 
-background: -moz-radial-gradient(circle, hsla(0, 0%, 97%, 1) 0%, hsla(241, 34%, 60%, 1) 83%);
+background: -moz-radial-gradient(circle, hsla(240, 30%, 65%, 1) 15%, hsla(257, 32%, 55%, 1) 47%, hsla(255, 31%, 54%, 1) 63%, hsla(228, 58%, 31%, 1) 100%);
 
-background: -webkit-radial-gradient(circle, hsla(0, 0%, 97%, 1) 0%, hsla(241, 34%, 60%, 1) 83%);
+background: -webkit-radial-gradient(circle, hsla(240, 30%, 65%, 1) 15%, hsla(257, 32%, 55%, 1) 47%, hsla(255, 31%, 54%, 1) 63%, hsla(228, 58%, 31%, 1) 100%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F8F8F8", endColorstr="#7776BB", GradientType=1 );
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8989C0", endColorstr="#7D68B1", GradientType=1 );
 
   color: #0E1C53;
   font-family: Helvetica, Arial;
@@ -23,7 +23,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F8F8F8", en
 
 /* Heading Styles */
 h1 {
-  font-size: 48px;
+  font-size: 50px;
   color: #0E1C53;
   text-align: center;
 }
@@ -44,7 +44,7 @@ h1 {
   color: #0E1C53;
   cursor: pointer; 
   display: block;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;  
   margin: 0 auto 60px;
   padding: 1em 2em; 
@@ -66,7 +66,7 @@ h1 {
 }
 
 .choice-bucket label {
-  font-size: 12px;
+  font-size: 18px;
   line-height: 13px;
   margin: 15px 4%;
 }
@@ -88,7 +88,7 @@ h1 {
 }
 
 .highlight {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 24px;
   margin-left: 30px;
   opacity: .8;
