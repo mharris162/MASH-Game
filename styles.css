@@ -1,19 +1,35 @@
 /* Body styling */
 body {
-background: hsla(240, 30%, 65%, 1);
-
-background: radial-gradient(circle, hsla(240, 30%, 65%, 1) 15%, hsla(257, 32%, 55%, 1) 47%, hsla(255, 31%, 54%, 1) 63%, hsla(228, 58%, 31%, 1) 100%);
-
-background: -moz-radial-gradient(circle, hsla(240, 30%, 65%, 1) 15%, hsla(257, 32%, 55%, 1) 47%, hsla(255, 31%, 54%, 1) 63%, hsla(228, 58%, 31%, 1) 100%);
-
-background: -webkit-radial-gradient(circle, hsla(240, 30%, 65%, 1) 15%, hsla(257, 32%, 55%, 1) 47%, hsla(255, 31%, 54%, 1) 63%, hsla(228, 58%, 31%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8989C0", endColorstr="#7D68B1", GradientType=1 );
-
-  color: #0E1C53;
-  font-family: Helvetica, Arial;
+  background: hsla(240, 30%, 65%, 1);
+  background: radial-gradient(circle, hsla(240, 30%, 65%, 1) 15%, hsla(257, 32%, 55%, 1) 47%, hsla(255, 31%, 54%, 1) 63%, hsla(228, 58%, 31%, 1) 100%);
+  background: -moz-radial-gradient(circle, hsla(240, 30%, 65%, 1) 15%, hsla(257, 32%, 55%, 1) 47%, hsla(255, 31%, 54%, 1) 63%, hsla(228, 58%, 31%, 1) 100%);
+  background: -webkit-radial-gradient(circle, hsla(240, 30%, 65%, 1) 15%, hsla(257, 32%, 55%, 1) 47%, hsla(255, 31%, 54%, 1) 63%, hsla(228, 58%, 31%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8989C0", endColorstr="#7D68B1", GradientType=1 );
+  color: #000000;
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
+    body{
+      font-family: "Bebas Neue", sans-serif;
+        }
+        h1{
+          font-family: "Bebas Neue", sans-serif;
+        }
+         p{
+          font-family: "Bebas Neue", sans-serif;
+        }
+        h4{
+          font-family: "Bebas Neue", sans-serif;
+        }
+        label{
+          font-family: "Bebas Neue", sans-serif;
+        }
+        button{
+          font-family: "Bebas Neue", sans-serif;
+        }
+ .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 36px;
-  font-weight: 300;
   line-height: 1.65em;
   margin: 0 auto;
   max-width: 960px;
@@ -24,7 +40,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8989C0", en
 /* Heading Styles */
 h1 {
   font-size: 50px;
-  color: #0E1C53;
+  color: #000000;
   text-align: center;
 }
 
@@ -39,9 +55,9 @@ h1 {
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
   background: transparent;
-  border: 3px solid #0E1C53;
+  border: 3px solid #000000;
   border-radius: 6px;
-  color: #0E1C53;
+  color: #000000;
   cursor: pointer; 
   display: block;
   font-size: 24px;
@@ -74,7 +90,7 @@ h1 {
 .choice-bucket input {
   border: 0;
   border-radius: 6px;
-  color: #0E1C53;
+  color: #000000;
   font-size: 18px;
   margin: 15px 4%;
   outline: 0;
@@ -99,9 +115,9 @@ h1 {
 /* Answer Div */
 #answers {
   margin: 60px 0;
-  background: #d0a0ae;
+  background: #BF8A88;
   border-radius: 6px;
-  color: #713e94;
+  color: #000000;
   transition: 1s linear;
 }
 
